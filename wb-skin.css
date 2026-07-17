@@ -1,0 +1,25 @@
+/* ============================================
+   WorkBuddy custom skin layer
+   独立于主题变量块，升级重放时整文件覆盖即可
+   ============================================ */
+
+/* 暗色皮肤：霓虹灯牌背景 + 左侧压暗渐变 */
+body.dark .main-content {
+  background-image:
+    linear-gradient(90deg,
+      rgba(6, 6, 8, 0.96) 0%,
+      rgba(6, 6, 8, 0.50) 40%,
+      rgba(6, 6, 8, 0.06) 100%),
+    url(./wb-hero-dark.webp);
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+/* 暗色下输入区半透明 + 毛玻璃，让霓虹光透出 */
+body.dark .main-content textarea,
+body.dark .main-content [class*="input-container"] {
+  background: rgba(10, 10, 12, 0.65) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}

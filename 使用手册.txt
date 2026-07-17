@@ -1,0 +1,14 @@
+
+
+  对方使用方法：
+
+  1. 安装 Node.js
+  2. 退出 WorkBuddy
+  3. 把 4 个文件放同一个文件夹
+  4. 打开终端，运行：
+  node wb-theme-patch.js "D:\Programs\WorkBuddy"  //注意目录
+  5. 清缓存、启动验证（powershell命令）
+
+ Remove-Item -Recurse -Force "$env:USERPROFILE\.workbuddy\app\session\Cache"
+
+  如果对方想换图片，只需替换 wb-hero-dark.webp，重新运行脚本即可。
