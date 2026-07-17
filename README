@@ -2,6 +2,10 @@
 
   对方使用方法：
 
+  将'wbtheme-command.md' 直接扔到WorkBuddy里安装技能即可。
+
+  制作完成后按以下操作：
+
   1. 安装 Node.js
   2. 退出 WorkBuddy
   3. 把 4 个文件放同一个文件夹

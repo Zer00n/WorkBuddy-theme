@@ -4,11 +4,15 @@
 
 ## 快速使用
 
-### 1. 环境准备
+### 1. 自定义开发主题
+
+ 将'wbtheme-command.md' 直接扔到WorkBuddy里安装技能即可。
+
+### 2. 环境准备
 - 安装 [Node.js](https://nodejs.org/)
 - 关闭 WorkBuddy
 
-### 2. 应用主题
+### 3. 应用主题
 ```powershell
 # 运行 patch 脚本（路径替换为你的 WorkBuddy 安装目录）
 node wb-theme-patch.js "D:\Programs\WorkBuddy"
